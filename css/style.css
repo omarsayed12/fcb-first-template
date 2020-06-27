@@ -1,0 +1,665 @@
+/* 904 Line Befor Do FrameWork */
+
+/* 665 Line After Do FrameWork */ 
+
+/* start Main Rulez */
+
+body {font-family: sans-serif,cursive}
+
+.container {width: 1170px;margin: auto}
+
+.clearflex{clear: both}
+
+/* End Main Rulez */
+
+/* Start Header */
+
+.header .slider{
+	min-height: 800px;
+	background-image: url('https://i.pinimg.com/originals/90/e9/61/90e9618a114e132b23b26e7768d32cc2.jpg');
+	background-size: cover
+}
+
+.header .slider .intro{
+	height: 620px;
+	text-align: center;
+	color: #fff;
+	padding-top: 70px
+}
+
+.header .slider .intro h1{
+	margin: 0 auto;
+	width: 760px;
+	font-size: 44px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	padding: 10px 0
+}
+
+.header .slider .intro .search{
+	background-color: #fff;
+	width: 65%;
+	overflow: hidden;
+    margin: 50px auto;        
+}
+
+.header .slider .intro input{
+	padding: 15px;
+	font-size: 20px;
+	border: none;
+    width: 600px;
+	overflow: hidden;
+    color: #847e7e;
+    outline: inherit
+}
+
+.header .slider .intro button {overflow: hidden;border: none}
+
+.header .slider .intro button:active{background-color: #812249;	border: none}
+
+.header .slider .intro h1 span{color: #CC0130}
+
+.header .navbar h2 {font-size: 30px}
+
+.header .navbar h2 span{color: #CC092F}
+
+.header .navbar{
+	background: linear-gradient(90deg,#154284 0,#cd122d);
+	color: #fff;
+	overflow: hidden;
+	border-top: 6px solid #181733 			
+}
+
+.header .navbar ul{
+	list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+	float: right
+}
+
+.header .navbar ul li{
+	font-size: 17px;
+	padding: 15px;
+	float: left;
+	text-transform: uppercase;
+    border-right: .1rem solid #29283d
+}
+
+.header .navbar ul li a{color: #fff;text-decoration: none;font-weight: bold}
+
+.header .navbar ul li a:hover {color: #fdc52c}
+
+.header .navbar ul li.active a {color: #fdc52c}
+
+.header .navbar ul li:last-child{border: none}
+
+/*End Header */
+
+/* Start The History Club */
+
+.historyClup{
+	overflow: hidden;
+	padding-bottom: 20px;
+	margin: 60px 80px;
+    background-image: linear-gradient(to left, rgb(63, 100, 128),rgb(160, 162, 165))
+}
+
+.historyClup .feutures{width: 33.333%;overflow: hidden;padding-bottom: 20px}
+
+.historyClup .feutures h2{
+	background: linear-gradient(90deg,#cd122d,#154284);
+	font-size: 28px;
+	padding: 17px;	
+	text-align: center;
+	margin-bottom: 0
+}
+
+.historyClup .feutures p{
+	margin-top: 0;
+	padding: 25px 20px ;
+	color: #32306d;
+	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+	box-shadow: 5px 10px 15px 3px,
+				0px 40px 97px 3px #681d28
+}
+
+/* End The History Club */
+
+/* Start About Club*/
+
+.about-fcb {overflow: hidden ;background: linear-gradient(90deg,#080d53 0,#441c22 ,#df203c)}
+
+.about-fcb .image-club {width: 40% }
+
+.about-fcb .image-club img {width: 100% ;height: 726px}
+
+.about-fcb .info {width: 60% }
+
+.about-fcb .info h2 {margin: 30px 0 10px 40px;font-size: 28px}
+
+.about-fcb .info > p {margin: 30px 0  10px 40px}
+
+.about-fcb .info > p:last-of-type {margin: 30px 0 0 40px}
+
+hr {margin: 30px 10px 0 45p}
+
+.about-fcb .info .hobbes {margin: 20px 0 0 40px}
+
+.about-fcb .info .hobbes .conect  h3 {margin-bottom: 10px}
+
+.about-fcb .info .hobbes p {margin-top: 20px}
+
+.about-fcb .info .hobbes .conect {width: 50%;min-height: 100px;overflow: hidden}
+
+.about-fcb .info .hobbes .conect .icon {width: 10%;margin-top: 15px}
+
+.about-fcb .info .hobbes .conect .icon img{
+	max-width: 100%;
+	border-radius: 50%;
+	background-color: deepskyblue;
+	padding: 1px;
+	border: 0 solid
+}
+
+.about-fcb .info .hobbes .conect .text{width: 70%;margin-left: 20px}
+
+/* End About Clup */
+
+/* Start Skils Clup Fcp */
+
+.skilsClup{
+	margin: 60px;
+	padding: 20px 0 ;
+	overflow: hidden;
+	background-size: cover;
+    height: 495px;
+	background-image: url("https://media.linkonlineworld.com/img/large/2016/4/22/2016_4_22_12_44_6_294.jpg");
+	color: #fff
+}
+
+.skilsClup .skils, .skilsClup .progress {width: 50%}
+
+.skilsClup .skils h2 {margin: 30px 0 10px 40px;letter-spacing: 1px;font-size: 35px}
+
+.skilsClup .skils p {margin: 25px 0 0 40px;}
+
+.skilsClup .skils button {margin: 20px 0 0 40px;padding: 16px 30px;background: #202451}
+       
+.skilsClup .progress h2{margin: 40px 0 10px 100px;font-size: 28px}
+
+.skilsClup .progress .tecnecal h3 { margin: 25px 0px 10px 100px}
+
+.skilsClup .progress .tecnecal div {height: 30px;background: #ccc;margin-left: 100px}
+
+.skilsClup .progress .tecnecal div span{
+	height: 30px;
+	background: linear-gradient(99deg,#154284,#cd122d,#fffbda);
+	display: block;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: right
+}
+
+/* End skils Clup Fcp */
+
+/* Start About Clup Championest */
+
+.aboutClub { 
+	padding-top: 20px;
+	padding-bottom: 45px;
+	background-color: rgb(164, 21, 49) ;
+	overflow: hidden;
+	text-align: center
+}
+
+.aboutClub .champ h2 {margin-top: 5px;font-size: 35px}
+
+/* End About Clup Championest */
+
+/* Start education */
+
+.education{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	background: #181733
+}
+
+.education .par ,
+.education .sominfo {width: 50%;padding-top: 10px;padding-bottom: 50px}
+
+.education .par h2 {
+    margin: 30px 0 10px 0;
+    font-size: 36px;
+	background: #420c0c;
+	display: inline-block
+}
+
+.education .par p:last-of-type {color: #da4c4c}
+
+.education .par h2 span {color: #fff}
+
+.education .sominfo h3 {
+    margin: 30px 0px 10px 100px;
+    font-size: 28px;
+	background: #313e53;
+	display: inline-block
+} 
+
+.education .sominfo p {font-size: 18px; margin: 20px 0px 0 100px;color: #fff}
+
+.education .sominfo span {
+	display: block;
+	margin: 12px 0px 10px 100px;
+    font-size: 19px;
+	color: #fff
+}
+
+.education .sominfo strong {color: #FBC839;background: #420c0c}
+
+.education .sominfo hr {margin: 20px 0px 14px 104px; background: red}
+
+.education .sominfo .once {
+    background: #A21D41;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1.5px solid white
+}
+
+/*End education */
+
+/* Start Emoger */
+
+.club-news {
+	overflow: hidden;
+	margin: 0 170px 0 170px;
+	text-align: center;
+	background: linear-gradient(90deg,#080d53 0,#441c22 ,#df203c)
+}
+
+.club-news .fcb-news p {padding-top:40px;font-size: 23px}
+
+.club-news .fcb-news h2 {
+	padding: 13px 25px;
+    color: #ffffff;
+    display: inline-block;
+    background: #A21D41
+}
+
+.club-news .fcb-news ul {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-left:0;
+	list-style: none
+}
+
+.club-news .fcb-news ul li {
+	width: 8px;
+	height: 8px;
+	border: 2px solid red;
+	display: inline-block;
+	border-radius: 50%;
+	cursor: pointer	
+}
+
+.club-news .fcb-news ul li.active {background: #FBC839}
+
+.club-news .fcb-news ul li:hover {background: #FBC839}
+
+/* End Emoger */ 
+
+/* Start Portofilio */ 
+
+.portofilio{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	text-align: center
+}
+
+.portofilio h2 { 
+    padding: 8px 64px;
+	margin-left: 26px;
+    color: #843960;
+    font-weight: bold;
+    font-size: 46px;
+    background: #dde0e3;
+    border-radius: 3px;
+    box-shadow: 0 2.5px 2.5px 0 #beaaaa
+}
+
+.portofilio ul {
+    text-align: center;
+    word-spacing: .4rem;
+    max-width: 100%;
+    white-space: normal;
+    line-height: 4rem;
+	list-style: none
+}
+
+.portofilio ul li {display: inline-block}
+
+.portofilio ul li a {
+	border-radius: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18.3px;
+    line-height: 30px;
+	color: #222;
+    padding: 9px 25px;
+	text-decoration: none;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 2.5px 0 rgba(0,0,0,.15)
+}
+
+.portofilio ul li a:hover {background: #154284;color: #fff;border-radius: 5px}
+
+.portofilio .image-player h2 {
+    margin: 50px auto;
+	background: none;
+	box-shadow: none;
+	display: block;
+	clear: both
+}
+
+.portofilio .image-player > div {
+	width: 29.33333%;
+	height: 362px;
+	margin-bottom: 50px;
+	float: left;
+	margin-right: 40px;
+	overflow: hidden;
+	background: #181733;
+	border-bottom-left-radius: 10px ;
+	border-bottom-right-radius: 10px
+}
+
+.portofilio .image-player > div:first-of-type {margin-right: 70px}
+
+.portofilio .image-player div img{
+    width: 100%;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	background: #EEE;
+	padding-left: 50px;
+    padding-top: 50px;
+    background: linear-gradient(90deg,#080d53 0,#441c22 ,#df203c)
+}
+
+.portofilio .image-player div span {
+    display: inline-block;
+    width: 286px;
+    line-height: 1.5;
+    font-size: 15px;
+	color: #F7F7F7
+}
+
+.portofilio .image-player div span strong{
+	font-size: 20px;
+	color: #959597;
+	padding-bottom: 2px;
+	padding: 7px
+}
+
+.portofilio .image-player .cc{
+	width: 100%;
+	color: #FBC42C;
+	margin-top: 72px;
+    background: #181733;
+    padding-bottom: 50px;
+	height: 170px;
+	border-radius: 10px
+}
+
+.portofilio .image-player .head {color: #FBC42C;margin: 30px auto}
+
+.portofilio .image-player .cc q {color: aliceblue;font-size: 30px}
+
+.portofilio .manager {
+	margin-top: 20;
+	overflow: hidden;
+	background: #1A3069;
+	border-top-right-radius: 200px
+}
+
+.portofilio .manager .details {width: 41%}
+
+.portofilio .manager .details p {
+	font-size: 25px;
+    color: #9B1F45;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 50px;
+	width: 95%
+}
+
+.portofilio .manager .details p:last-of-type {
+	color: #DDDDDD;
+	font-size: 19px;
+	margin-left: 60px;
+	font-weight: normal
+}
+
+.portofilio .manager .details span:first-of-type {
+    color: #FDC52C;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin-left: 65px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 26px;
+	cursor: pointer;
+	font-style: italic
+}
+
+.portofilio .manager img {
+	float: left;
+	width: 44%;
+	padding-left: 50px;
+    padding-top: 50px;
+    background: linear-gradient(90deg,#080d53 0,#441c22 ,#df203c)
+}
+
+/*End Portofilio */
+
+/* Start Conact */
+
+.contact {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin: 60px 0 60px 0;
+	overflow: hidden;
+	background-image: url("https://image.radionawa.com/root/root/images/171042020_GPF8535-1.jpg");
+	background-size: cover
+}
+
+.contact .log {
+	width: 100%;
+	height: 1000px;
+	background: #F1F1F2	;
+	border-top-right-radius: 26px;
+	border-top-left-radius: 26px;
+    border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px	
+}
+
+.contact .log header {
+	background: #1B2B59;
+    padding: 36px;
+	width: 94%;
+	height: 45px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+	border-bottom: 9px solid #76264F
+}
+
+.contact .log header .icon-fcb {margin: auto;width: 31%}
+
+.contact .log header .icon-fcb .fcb {width: 15%}
+
+.contact .log header .icon-fcb h2 {
+	margin-top: 6px;
+    text-transform: uppercase;
+    font-size: 33px;
+    color: #f9f9f9
+}
+
+.contact .log .meCall {
+	margin-top: 165px;
+	border-top-left-radius: 34%;
+	width: 40%;
+	height: 635px;
+    background-size: cover;
+	background-image: url("https://arabia.as.com/uploads/images/2018/06/28/42657.jpg")
+}
+
+.contact .info {overflow: hidden;width: 60%}
+
+.contact .info span {
+	padding-top: 39px;
+    display: inline-block;
+    font-size: 42px;
+    font-weight: 400;
+    color: #192A56
+}
+
+.contact .info .contact-social .icon-social {
+    background: #fff;
+    width: 40%;
+	padding: 7px;
+	margin: 5px;
+	margin-left: 50px;
+	box-shadow: 0px 1.1px 4.1px 1px #948d8d
+}
+
+.contact .info .contact-social .icon-social:hover {border:1px solid #154284}
+
+.contact .info .contact-social .icon-social:last-of-type {margin-left: 0}
+
+.contact .info .contact-social .icon-social img {max-width: 35px;margin-left: 120px}
+
+.contact .info .contact-social .icon-social h4 {
+	width: 5px;
+    font-size: 22px;
+    height: 5px;
+    margin: 0;
+    padding: 3px
+}
+
+.contact .log form {margin-left: 50px}
+
+.contact .log form label {display: block;font-size: 29px;font-weight: bold;margin-bottom: 10px}
+
+.contact .log form input[type="text"],[type="password"] {
+	width: 70%;
+    height: 45px;
+    border: 2px solid #ccc;
+	margin-bottom: 30px;
+	display: block
+}
+
+.contact .log form span {
+	font-size: 26px;
+    color: #404040;
+    letter-spacing: 0.5px;
+	padding-top: 0;
+	padding-bottom: 5px;
+	margin-right: 20px
+}
+
+.contact .log form .checkbox {
+	width: 19px;
+    height: 18px;
+    box-shadow: 0 1.2px 5.2px 0 #c0b0b0;
+    border: 2px solid #dadbe5
+}
+.contact .log form p {
+	margin-left: 49px;
+    font-style: italic;
+    color: #ff0808;
+    font-weight: 600
+}
+.contact .log form button {
+    width: 63%;
+    height: 49px;
+    font-size: 31px;
+    text-transform: uppercase;
+    background: #D5D5D5;
+    color: #8c8888;
+    border-radius: 5px;
+	border: 0
+}
+
+.contact .log form .login {padding: 30px 25px; font-size: 20px;color: #232374}
+
+.contact .log form .login a{font-weight: 900; font-size: 22px;color: #154284}
+
+/* End Contact */
+
+/* Startv Footer */ 
+
+.footer {
+	background-color: #181733;
+	padding: 20px;
+	text-align: center;
+	overflow: hidden;
+	border-top: 10px solid #CD122D; 
+    box-shadow: 0px 3px 30px 16px #ff001a,
+				0px 3px 30px 16px red
+}
+
+.footer span {float: left}
+
+.footer .copyright {
+	font-weight: bold;
+	color: #fff;
+	margin-left: 100px;
+	margin-left: 80px 
+}
+
+.footer .ccc{color: #ccc}
+
+.footer ul {
+	padding-left: 0;
+	list-style: none;
+	margin-top: 0;
+	margin-right: 80px
+}
+
+.footer ul li {display: inline;float: right;padding-right: 18px}
+
+.footer ul li img {width: 27px;background: #ccc}
+
+/* End Footer */
+
+/* Start My FrameWork */
+
+.all-button {
+	width: 156px;
+    padding: 16px;
+    border: none;
+	color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+	background: #181733;
+	border: 1px solid #fff;
+	cursor: pointer
+}
+
+.all-pragraph {
+	line-height: 1.5;
+    letter-spacing: .8px;
+    font-weight: bold;
+    color: #CCCCCC;
+    font-size: 18px
+}
+
+h2,h3,h1 {color: #FBC42C;text-transform: uppercase;letter-spacing: 1px}
+
+.h-2 {text-align: center;padding-top: 34px;color: #8c8c94;text-transform: uppercase}
+
+.fl-float {float: left}
+
+/* End My FrameWork */
